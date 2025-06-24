@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Infoskærm</title>
+    <title>A FireDash DashBoard</title>
     <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
     <meta http-equiv="Pragma" content="no-cache">
     <meta http-equiv="Expires" content="0">
@@ -275,7 +275,7 @@
 </div>
 
 <div id="sidebar">
-    <img id="logo" src="https://kegnaes-friskole.dk/wp-content/uploads/2021/02/cropped-favicon1.png" alt="Logo">
+    <img id="logo" src="https://logo" alt="Logo"> <!-- Replace with your logo -->
     <div id="digitalClock"></div>
 
     <!-- Analog Clock HTML (Indsat her) -->
