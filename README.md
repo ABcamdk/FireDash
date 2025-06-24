@@ -1,32 +1,6 @@
 # FireDash
 
-```
-                                                                                                    
-                                                                                                    
-         @@@@@@@@@     @@@             @@@@         @@@@@@@@@                                       
-    @@@@@@@@@@@@@@@@ @@@@@@@      @@@@@@@@@@@  @@@@@@@@@@@@@@@@                                     
-  @@@@@@@@@@@@@@@@@@ @@@@@@@   @@@@@@@@@@@@@ @@@@@@@@@@@@@@@@@                                      
- @@@@@@@@            @@@@@@@  @@@@@@@@     @@@@@@@@                                                 
-@@@@@@@@@@@@@@@@@@@@ @@@@@@@  @@@@@@@      @@@@@@@@@@@@@@@@@@@                                      
-@@@@@@@@@@@@@@@@@@@@ @@@@@@@  @@@@@@       @@@@@@@@@@@@@@@@@@@                                      
-@@@@@@@              @@@@@@@  @@@@@@       @@@@@@@@                                                 
-@@@@@@@              @@@@@@@  @@@@@@        @@@@@@@@@@@@@@@@@@               @@@                    
-@@@@@@@              @@@@@@@  @@@@@@          .@@@@@@@@@@@@@@@@            @@@@@@@                  
-  @@@@        @@@@@@ @@@@@@@   @@@@   @@@@@@   @@@ @@@@@@@@@@@@@@@@@@@@@   @@@@@@@  @@@@@@          
-         @@@@@@@@@@@@@@@@@@@     @@@@@@@@@@@@@@@@@@@   @@@@@@@@@@@@@@@@@@@ @@@@@@@@@@@@@@@@@@@      
-       @@@@@@@@@@@@@@@@@@@@@   @@@@@@@@@@@@@@@@@@@@@  @@@@@@@@@@@@@@@@@@@  @@@@@@@@@@@@@@@@@@@@@    
-      @@@@@@@@      @@@@@@@@  @@@@@@@@      @@@@@@@@  @@@@@@@              @@@@@@@@@      @@@@@@@@  
-     @@@@@@@         @@@@@@@ @@@@@@@         @@@@@@@  @@@@@@@@@@@@@@@@@@   @@@@@@@         @@@@@@@  
-     @@@@@@@         @@@@@@@ @@@@@@@         @@@@@@@   @@@@@@@@@@@@@@@@@@  @@@@@@@         @@@@@@@  
-      @@@@@@@@      @@@@@@@@  @@@@@@@@      @@@@@@@@               @@@@@@@ @@@@@@@         @@@@@@@  
-       @@@@@@@@@@@@@@@@@@@@@   @@@@@@@@@@@@@@@@@@@@@  @@@@@@@@@@@@@@@@@@@  @@@@@@@         @@@@@@@  
-         @@@@@@@@@@@@@@@@@@@     @@@@@@@@@@@@@@@@@@@  @@@@@@@@@@@@@@@@@@@  @@@@@@@         @@@@@@@  
-              @@@@@@   @@@            @@@@@@   @@@      @@@@@@@@@@@@@        @@@             @@@    
-                                                                                                    
-                                                                                                    
-```
-
-![FireDash Logo](https://raw.githubusercontent.com/abcamdk/firedash/main/firedash_logo.png)
+![FireDash Logo]([https://raw.githubusercontent.com/abcamdk/firedash/main/firedash_logo.png](https://firedash.mapsil.com/logo.png))
 
 FireDash is an open-source, web-based info screen system designed for internal communication. It provides an administrative interface for creating and managing dynamic content, which is then displayed on a central info screen. The system supports various slide types, including text, images, birthday announcements, and embedded PDFs. Content is retrieved from a centralized MySQL database, ensuring dynamic and up-to-date information dissemination. FireDash is designed to operate efficiently within a standard web hosting environment.
 
