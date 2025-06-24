@@ -9,9 +9,9 @@ ob_start(); // Start output buffering
 
 // Databaseforbindelsesoplysninger
 $servername = "localhost";
-$username = "uvvkm6sipwxyu"; // Dobbelttjek dette
-$password = "zrp5DkeE9bFgAa2nt4wG"; // Dobbelttjek dette
-$dbname = "dbw57oq7haxjk5"; // Dobbelttjek dette
+$username = "root"; // Dobbelttjek dette
+$password = "root"; // Dobbelttjek dette
+$dbname = "main_db"; // Dobbelttjek dette
 
 // Opret forbindelse
 $conn = new mysqli($servername, $username, $password, $dbname);
