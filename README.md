@@ -110,6 +110,6 @@ Contributions are welcome! Please feel free to open an issue or submit a pull re
 
 ## License
 
-This project is open source. (Insert license information here, e.g., MIT License).
+This project is open source. And released by Mapsil
 
 ---
