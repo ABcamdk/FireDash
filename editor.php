@@ -169,7 +169,7 @@ if (isset($_GET["slet"])) {
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Infoskærm Editor</title>
+    <title>FireDash - Editor</title>
     <meta charset="UTF-8">
     <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
     <meta http-equiv="Pragma" content="no-cache">
@@ -357,40 +357,40 @@ if (isset($_GET["slet"])) {
 <h1>Infoskærm Editor</h1>
 
 <div class="tab-container">
-    <button class="tab-button" onclick="openTab(event, 'createSlide')" id="defaultOpen">Opret Ny Slide</button>
-    <button class="tab-button" onclick="openTab(event, 'manageSlides')">Administrer Slides og Besked</button>
+    <button class="tab-button" onclick="openTab(event, 'createSlide')" id="defaultOpen">Add New Slide</button>
+    <button class="tab-button" onclick="openTab(event, 'manageSlides')">Manage Slides and Message</button>
 </div>
 
 <div id="createSlide" class="tab-content">
     <form action="editor.php" method="post" enctype="multipart/form-data">
-        <h2>Opret Ny Slide</h2>
+        <h2>Add New Slide</h2>
 
         <label for="type">Type:</label>
         <select id="type" name="type" onchange="skiftTypeFelter()">
-            <option value="billede">Billede</option>
-            <option value="tekst">Tekst</option>
-            <option value="fødselsdag">Fødselsdag</option>
+            <option value="billede">Image</option>
+            <option value="tekst">Text</option>
+            <option value="fødselsdag">Birthday</option>
             <option value="pdf">PDF</option>
         </select><br><br>
 
         <div id="billede_felter" style="display: none;">
-            <label for="billede_url">Billede URL (Valgfrit, hvis du uploader):</label><br>
+            <label for="billede_url">Image URL (Optional if uploading):</label><br>
             <input type="text" id="billede_url" name="billede_url" size="50"><br>
-            <label for="billede_upload">Upload Billede (Vil overskrive URL):</label><br>
+            <label for="billede_upload">Upload Image (Will overwrite URL):</label><br>
             <input type="file" id="billede_upload" name="billede_upload"><br><br>
-            <label for="billede_overskrift">Billede Overskrift:</label><br>
+            <label for="billede_overskrift">Image Header:</label><br>
             <input type="text" id="billede_overskrift" name="billede_overskrift" size="50"><br><br>
         </div>
 
         <div id="tekst_felter" style="display: none;">
-            <label for="overskrift">Overskrift:</label><br>
+            <label for="overskrift">Heading:</label><br>
             <input type="text" id="overskrift" name="overskrift" size="50"><br>
-            <label for="tekst">Tekst:</label><br>
+            <label for="tekst">Text:</label><br>
             <textarea id="tekst" name="tekst" rows="4" cols="50"></textarea><br><br>
         </div>
 
         <div id="fødselsdag_felter" style="display: none;">
-            <label for="fødselsdag_navne">Navne (adskilt med komma):</label><br>
+            <label for="fødselsdag_navne">Names (separated by commas):</label><br>
             <input type="text" id="fødselsdag_navne" name="fødselsdag_navne" size="50"><br><br>
         </div>
 
@@ -399,7 +399,7 @@ if (isset($_GET["slet"])) {
             <input type="text" id="pdf_url" name="pdf_url" size="50"><br><br>
         </div>
 
-        <label for="visningstid">Visningstid (sekunder):</label>
+        <label for="visningstid">Display time (seconds)::</label>
         <input type="number" id="visningstid" name="visningstid" value="10"><br><br>
 
         <input type="submit" name="opret_slide" value="Opret Slide">
@@ -407,7 +407,7 @@ if (isset($_GET["slet"])) {
 </div>
 
 <div id="manageSlides" class="tab-content">
-    <h2>Eksisterende Slides</h2>
+    <h2>Existing Slides</h2>
 
     <?php
     // Hent alle slides sorteret efter rækkefølge
@@ -452,7 +452,7 @@ if (isset($_GET["slet"])) {
     <h2>Rediger Besked</h2>
 
     <form action="editor.php" method="post">
-        <label for="besked">Besked (Vises øverst på infoskærmen):</label><br>
+        <label for="besked">Message (Shown at the top of the info screen):</label><br>
         <?php
         // Hent den aktuelle besked fra databasen
         $sql_select_message = "SELECT besked FROM konfiguration LIMIT 1";
